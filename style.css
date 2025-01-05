@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Pacifico', sans-serif;
+    background-color: #FDE199;
+}
+
+
+/* лого */
+.logo{
+    height: 170px;
+    background-repeat: no-repeat;    
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.logo h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: -210px;
+    color: #47271b;
+}
+
+.logo p{
+    text-align: center;
+    font-size: 40px;
+    color: #47271b;
+    max-height: 500px;
+}
+
+
+/* стаканы */
+.stakani_text h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 300px;
+    color: #47271b;
+}
+
+.stakani_text p{
+    text-align: center;
+    color: #47271b;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+.stakani_img{
+    background-image: url(./img/стаканыэти.png);
+    text-align: center;
+    margin-top: -60px;
+}
+
+
+/* коробка */
+.korobka_text h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 100px;
+    color: #47271b;
+}
+
+.korobka_text p{
+    text-align: center;
+    color: #47271b;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    /* background: linear-gradient(to bottom, #fde199 0%, #f9e5a8 100%); */
+}
+
+.korobka_text_na_h2{
+    font-size: 80px;
+    margin-top: -700px;
+    margin-bottom: 700px;
+    margin-left: 970px;
+    color: #47271b;
+}
+
+.korobka_text_na_p{
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -650px;
+    margin-bottom: 700px;
+    margin-left: 950px;
+    color: #47271b;
+}
+
+.korobka_text_na p{
+    font-size: 30px;
+    margin-top: -770px;
+    margin-bottom: 700px;
+    margin-left: 970px;
+    color: #47271b;
+}
+
+.korobka_img{
+    background-color: #f9e5a8;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: -270px;
+}
+
+
+/* меню */
+.menu_text h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: -300px;
+    color: #47271b;
+}
+
+.menu_text p{
+    text-align: center;
+    color: #47271b;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-bottom: 70px;
+}
+
+.menu_text_na_h2{
+    font-size: 80px;
+    margin-top: -780px;
+    margin-bottom: 700px;
+    margin-left: 110px;
+    color: #47271b;
+}
+
+.menu_text_na_p{
+    text-align: center;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -580px;
+    margin-bottom: 700px;
+    margin-left: 340px;
+    color: #47271b;
+}
+
+.menu_text_na p{
+    font-size: 30px;
+    margin-top: -770px;
+    margin-bottom: 700px;
+    margin-left: 970px;
+    color: #47271b;
+}
+
+.menu_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* акции */
+.akcii_text h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: -200px;
+    color: #47271b;
+}
+
+.akcii_text p{
+    text-align: center;
+    color: #47271b;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+.akcii_img{
+    text-align: center;
+    margin-top: -60px;
+}
+
+
+/* где находимся */
+.gde_text h2{
+    text-align: center;
+    font-size: 80px;
+    margin-top: -300px;
+    color: #47271b;
+}
+
+.gde_text p{
+    text-align: center;
+    color: #47271b;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-bottom: 70px;
+}
+
+.gde_text_na_h2{
+    font-size: 60px;
+    max-width: 390px;
+    margin-top: -800px;
+    margin-bottom: 700px;
+    margin-left: 315px;
+    color: #f9e5a8;
+    text-shadow: 4px 4px 8px #47271b;
+}
+
+.gde_text_na_p{
+    text-align: center;
+    max-width: 390px;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-top: -580px;
+    margin-bottom: 720px;
+    margin-left: 315px;
+    color: #f9e5a8;
+    text-shadow: 3px 3px 8px #47271b;
+}
+
+.gde_text_na p{
+    font-size: 30px;
+    margin-top: -770px;
+    margin-bottom: 700px;
+    margin-left: 970px;
+    color: #47271b;
+}
+
+.gde_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* подвал */
+
+/* .podval_text h2{
+    text-align: center;
+    font-size: 80px;
+    color: #47271b;
+}
+
+.podval_text p{
+    text-align: center;
+    color: #47271b;
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-bottom: 70px;
+} */
+
+.podval_text_na_h2{
+    font-size: 60px;
+    max-width: 900px;
+    margin-top: -300px;
+    /* margin-bottom: 700px; */
+    margin-left: 400px;
+    color: rgb(238, 238, 238);
+    text-shadow: 3px 3px 8px #47271b;
+}
+
+.podval_text_na_p{
+    text-align: center;
+    max-width: 390px;
+    font-size: 30px;
+    font-weight: 700;
+    /* margin-top: -580px; */
+    /* margin-bottom: 720px; */
+    margin-left: 500px;
+    color: #47271b;
+}
+
+.podval_text_na p{
+    font-size: 30px;
+    /* margin-top: -770px; */
+    /* margin-bottom: 700px; */
+    margin-left: 970px;
+    color: #47271b;
+}
+
+.podval_img{
+    margin-top: -530px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffa030;
+}
